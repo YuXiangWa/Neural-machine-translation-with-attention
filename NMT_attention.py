@@ -16,7 +16,7 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.layers import Embedding, GRU, Dense 
 
 """## Loading the dataset using tensorflow_datasets """
-dataset=pd.read_csv('/content/data.txt',header=None,sep='\t',encoding='utf-8-sig')
+dataset=pd.read_csv('data.txt',header=None,sep='\t',encoding='utf-8-sig')
 
 NUM_SAMPLES = len(dataset)
 """## Adding start and end sequence markers"""
